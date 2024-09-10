@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:food_review_app/helper/theme.dart';
 import 'package:food_review_app/pages/home.dart';
+// ignore: depend_on_referenced_packages
+import 'package:firebase_core/firebase_core.dart';
 
-
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+      // options: DefaultFirebaseOptions.currentPlatform,
+      );
   runApp(const MyApp());
 }
 
