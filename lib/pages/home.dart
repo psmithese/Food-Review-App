@@ -3,9 +3,10 @@ import 'package:food_review_app/pages/review_grid_photo.dart';
 import 'package:food_review_app/pages/review_list/review_list.dart';
 import 'package:food_review_app/widget/reponsive_layout_builder.dart';
 
-
 class Home extends StatefulWidget {
   const Home({super.key});
+
+  static const String route = '/home';
 
   @override
   State<Home> createState() => _HomeState();
