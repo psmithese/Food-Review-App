@@ -15,8 +15,8 @@ class Routes {
     Home.route: (BuildContext context) => const Home(),
     UserLogin.route: (BuildContext comtext) => const UserLogin(),
     UserRegister.route: (BuildContext context) => const UserRegister(),
-    UserForgetPassword.route: (BuildContext context) =>
-        const UserForgetPassword(),
+    UserForgotPassword.route: (BuildContext context) =>
+        const UserForgotPassword(),
     ReviewList.route: (BuildContext context) => const ReviewList(),
     ReviewEntryView.route: (BuildContext context) => const ReviewEntryView(),
     ReviewEntryEdit.route: (BuildContext context) => const ReviewEntryEdit(),
