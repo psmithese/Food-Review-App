@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_review_app/helper/theme.dart';
+import 'package:food_review_app/pages/authentication/user_forget_password.dart';
 import 'package:food_review_app/pages/authentication/user_login.dart';
 import 'package:food_review_app/pages/authentication/user_register.dart';
 import 'package:food_review_app/pages/home.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: Themes.lightTheme(),
       darkTheme: Themes.darkTheme(),
       themeMode: ThemeMode.system,
-      home: const UserLogin(),
+      home: const UserForgotPassword(),
     );
   }
 }
