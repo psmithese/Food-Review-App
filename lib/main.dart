@@ -66,6 +66,6 @@ class BuildMaterialApp extends StatelessWidget {
       navigatorKey: navigatorKey,
       initialRoute: initialRoute,
       routes: Routes.route,
-    );git 
+    );
   }
 }
