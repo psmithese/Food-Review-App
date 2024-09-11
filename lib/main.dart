@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_review_app/helper/theme.dart';
+import 'package:food_review_app/pages/authentication/user_login.dart';
 import 'package:food_review_app/pages/authentication/user_register.dart';
 import 'package:food_review_app/pages/home.dart';
 // ignore: depend_on_referenced_packages
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: Themes.lightTheme(),
       darkTheme: Themes.darkTheme(),
       themeMode: ThemeMode.system,
-      home: const UserRegister(),
+      home: const UserLogin(),
     );
   }
 }
